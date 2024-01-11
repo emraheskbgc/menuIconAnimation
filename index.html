@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu" id="menu">
+
+            <div>
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        <div class="menu2" id="menu2">
+
+            <div>
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        <div class="menu3" id="menu3">
+
+            <div>
+                <span class="line-1"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        <div class="menu4" id="menu4">
+
+            <div>
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var menu = document.getElementById("menu")
+        var menu2 = document.getElementById("menu2")
+        var menu3 = document.getElementById("menu3")
+        var menu4 = document.getElementById("menu4")
+
+        menu.onclick = function(){
+            menu.classList.toggle("openmenu")
+        }
+        menu2.onclick = function(){
+            menu2.classList.toggle("openmenu2")
+        }
+        menu3.onclick = function(){
+            menu3.classList.toggle("openmenu3")
+        }
+        menu4.onclick = function(){
+            menu4.classList.toggle("openmenu4")
+        }
+
+    </script>
+</body>
+</html>
